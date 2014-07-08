@@ -1,5 +1,5 @@
 # Project 1 :  exploratory data analysis
-# Due Sunday June 8th 2014
+# Due Sunday July 13th 2014
 
 #set the directory
 
@@ -62,6 +62,7 @@ plot4 <- function(wnt = "subset.txt")
         
         }
 
+# If the file is not in the working dir, download and unzip it.
 
 get_file <- function(url, destfile)
 {
@@ -78,6 +79,8 @@ get_file <- function(url, destfile)
         wnt_tble <- read.table(want_files, header = TRUE, sep = ";", na.strings = "?", nr = -1, skip = 0);
         
 }
+
+#extract date sections of the file.
 
 section <- function(x)
         {
