@@ -3,7 +3,7 @@
 
 #set the directory
 
-setwd("/Users/patrick_grenham/Documents/Coursera/JHU R/Exp_Analysis")
+setwd()
 
 # get the website address, unzip the file
 
