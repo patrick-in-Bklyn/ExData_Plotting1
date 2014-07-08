@@ -5,7 +5,7 @@
 
 setwd()
 
-# get the website address, unzip the file
+# Plot function
 
 plot1 <- function(wnt = "subset.txt")
         {
